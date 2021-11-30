@@ -6,11 +6,19 @@
 
 
 @media only screen and (max-width:700px){
+    *{
+        margin: 0.5 !important;
+    }
+    .navbar{
+        margin: 0;
+        padding:0.5rem 0.4rem;
+    }
     .mynavbar{
-        margin: 1rem;
+        margin: 0rem;
     }
     .mynavitems{
-        flex-wrap: wrap;
+        flex-wrap:wrazp;
+
     }
     .mylinks{
         margin: 0.5rem;
@@ -36,6 +44,10 @@
     }
     #aboutus .image{
        display: block;
+    }
+    #aboutus .imgdescp{
+       margin: 0;
+       padding: 0.5rem;
     }
     
     #footer {
