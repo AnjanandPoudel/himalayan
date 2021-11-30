@@ -1,0 +1,264 @@
+
+*{
+    color: white;
+}
+
+body{
+    background: #5740d8 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 84px;
+    left: 52px;
+    top: 0px;
+    padding: 2rem 4rem;
+}
+a{
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;}
+
+.abel{
+    font-family: 'Abel', sans-serif ;
+ }
+
+
+ hr{
+     margin: 1px 0 0 0;
+     border-top: 1px solid rgb(80, 78, 78);
+ }
+ .light{
+     margin: 0.1rem;
+     border-top: 1px solid rgb(189, 179, 179);
+ }
+ 
+ .hel{
+     font-family: Arial, Helvetica, sans-serif
+ }
+ 
+ img{
+     width: 100%;
+ }
+ 
+ .main a{
+     text-decoration: none !important;
+     color: white;
+ }
+ .smalltext{
+     font-size: 13px;
+ }
+
+ /* navbar */
+
+ 
+.mynavbar{
+    min-height: 4.2rem;
+    max-height: 30rem;
+    padding: 1rem 2rem 0 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mynavitems{
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap;
+    */
+}
+
+.mylinks{
+    position: relative;
+    margin:1rem 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcomepart{
+    position: absolute;
+    width: 424px;
+    height: 164px;
+    left: 92px;
+    top: 232px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+
+.maintext{
+    position: relative;
+    width: 299px;
+    height: 101px;
+    left: 92px;
+    top: 405px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.mainbtn{
+    position: relative;
+    margin-top:30em;
+    left: 92px;
+}
+
+.downarrowbtn{
+    position: relative;
+    top: 1rem;
+    left: 45%;
+    transform: translate(-50%);
+    background: #6F7ECC;
+    padding:1.3rem 6rem;
+    border-radius: 18px;
+    transition:ease-in-out;
+}
+/* new section */
+#aboutus{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 54px;
+    text-align: center;
+    color: #C9D6EE;
+    margin-top: 3rem;
+
+}
+
+#aboutus .image{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding:3rem 3rem;
+}
+
+#aboutus  img{
+    border-radius: .4rem;
+}
+
+.image .imgdescp{
+    font-weight:500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align:left;
+    padding: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*  */
+.sponsertitle{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #f3f3f3;
+    margin: 4rem 0 0 5rem;
+}
+
+.sponserscard img{
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.sponserscards{
+    padding:2rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponserscard{
+    position: relative;
+    width: 252px;
+    height: 238px;
+    box-shadow: 0 1px 1px rgb(57, 8, 148);
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
+.stext{
+    padding: 0.7rem;
+    display: grid;
+    grid-template-columns:80%  20%;
+}
+
+.s-sname{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.sdescp{
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+}
+
+.stext .goicon{
+    font-size: 2rem;
+}
+
+#footer {
+    position: relative;
+    width: 90%;
+    left:50%;
+    transform: translate(-50%);
+    padding: 3rem;
+    text-align: center;
+    background: #8482EA;
+}
+#footer .footerup{
+
+    display: grid;
+    grid-template-columns: 40% 35% 35%;
+}
+
+.footertext{
+    text-align: left;
+}
+
+.copyright{
+    margin: 2rem 0;
+}
+
+.Socialicons {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.Socialicons .socialicon a{
+    margin: 1rem;
+    border: 1px solid rgb(102, 102, 102);
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+.Socialicons .socialicon .facebook{
+    background: rgb(46, 19, 224);
+}
+.Socialicons .socialicon .google{
+    background: rgb(179, 102, 13);
+}
+.Socialicons .socialicon .twitter{
+    background: rgb(52, 123, 230);
+}
+.Socialicons .socialicon .youtube{
+    background: rgb(226, 12, 12);
+}
+
