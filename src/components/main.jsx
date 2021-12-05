@@ -1,4 +1,3 @@
-import { Button } from 'reactstrap';
 import React from 'react';
 import { Component } from 'react';
 
@@ -14,10 +13,17 @@ class MainComponent extends Component{
     render(){
         return(
             <div className="main">
+                <div className="headerandmainsection">
                 <Header />
+               <div className="bgvideodiv">
+                    <video autoPlay loop muted className="bgvideo" src="/images/vid.mp4"></video>
+               </div>
+
                 <MainSection />
+                </div>
                 <Aboutus />
                 <Sponsers />
+                <Media />
                 <Footer />
             </div>
         )
@@ -27,20 +33,20 @@ class MainComponent extends Component{
 function Header(){
     return(
         <div className="header">
-        <div className="navbar mynavbar">
-            <div className="navbarbrand">
-                HIMALAYAN
-            </div>
+        <div className="navbar mynavbar ">
+           
             <div className="mynavitems  ">
                 <div className="mylinks">
-                    Home
+                    Roadmap
                 </div>
                 <div className="mylinks">
-                    About us
+                    partners
                 </div>
-                
+                <div className="navbarbrand">
+                    <img src="/images/l.png" alt="" />
+                </div>
                 <div className="mylinks">
-                    <a href="#sponser"> Sponsers </a>
+                    <a href="#sponser"> About us </a>
                 </div>
                 <div className="mylinks">
                     Contact 
@@ -56,17 +62,15 @@ function MainSection(){
    return(
     <div className="main">
     <div className="welcomepart">
-        Welcome to our Robosite !
+        Himalayan pheasant 2.0
 
     </div>
     <div className="maintext">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque facere doloribus, facilis veniam iste beatae, autem accusantium repellat asperiores, harum voluptates ducimus velit illum totam alias officia.
-
+       Lorem ipsum dolor sit amet cons
     </div>
-    <Button className="mainbtn btn btn-success">click here</Button>
     <br />
     <div className="downarrow">
-        <a href="#aboutus" className="downarrowbtn"> <i className="fa fa-arrow-down"></i> </a>
+        <button><a href="#aboutus" className="downarrowbtn"> <i className="fa fa-arrow-down"></i> </a></button>
     </div>
     <br />
     <br />
@@ -117,28 +121,39 @@ function Sponsers(){
 function SponsersCard(){
     return(
         <div className="sponserscard">
-            <div className="simage">
-                <img src="/images/q.jpg" alt="" />
-            </div>
-            <div className="stext">
             <div className="">
-                <span className="s-sname">
-                        Full Name
-                    </span>
-                    <br />
-                    <span className="sdescp">
-                        Description and position
-                    </span>
-            </div>
-                <div className="goicon">
-                <a href="/sponsers">
-                <i className="fa fa-arrow-circle-right"></i>
-                </a>
-                </div>
+                <img src="/images/q.jpg" alt="" />
             </div>
         </div>
     )
 }
+
+function Media(){
+    return(
+        <div id="sponser">
+            <div className="mediatitle">
+                Our Media
+            </div>
+            <div className="sponserscards">
+               <MediaCard />
+               <MediaCard />
+               <MediaCard />
+               <MediaCard />
+            </div>
+        </div>
+    )
+}
+function MediaCard(){
+    return(
+        <div className="sponserscard">
+            <div className="">
+                <img src="/images/q.jpg" alt="" />
+            </div>
+        </div>
+    )
+}
+
+
 function Footer(){
     return(
         <div id="footer">
@@ -168,7 +183,13 @@ function Footer(){
                 </div>
            </div>
             <div className="copyright">
-            Copyright @ 2021 . Robotics All rights reserved
+            Copyright @ 2021 . Robotics All rights reserved 
+            <br />
+            Designed and made by:
+            <br />
+            -Anjan Poudel
+            <br />
+            -Roshan K.C
             </div>
         </div>
     )

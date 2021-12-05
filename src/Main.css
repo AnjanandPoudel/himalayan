@@ -1,7 +1,4 @@
 
-*{
-    color: white;
-}
 
 
 
@@ -32,14 +29,14 @@
         width: 70%;
         position: relative;
         left: 43px;
-        margin: .1rem;
+        margin: 90% 0 0 0;
         line-height: 50px;
     }
     .maintext{
         position: relative;
-        margin-top: -10rem;
+        margin-top: 1rem;
         width: 70%;
-        left: 43px;
+        text-align: center;
        
     }
     #aboutus .image{
@@ -70,5 +67,110 @@
         padding: 0.5rem;
         
     }
+    .mynavbar{
+        height: 5rem;
+        padding: 1rem 2rem 0 5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        margin: 0 2rem;
+        background: rgba(6, 0, 50, 0.8);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        z-index: 3;
+        
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+@media only screen and (max-width:500px){
+    *{
+        margin: 0.5 !important;
+    }
+    .navbar{
+        margin: 0;
+        padding:0.5rem 0.4rem;
+    }
+    .mynavbar{
+        margin: 0rem;
+    }
+    .mynavitems{
+        flex-wrap:wrazp;
+
+    }
+    .mylinks{
+        margin: 0.5rem;
+     }
+ 
+    .downarrowbtn{
+        display: none;
+    }
+ 
+    .welcomepart{
+        width: 70%;
+        position: relative;
+        left: 43px;
+        line-height: 50px;
+    }
+    .maintext{
+        position: relative;
+        margin-top: 1rem;
+        width: 70%;
+        text-align: center;
+       
+    }
+    #aboutus .image{
+       display: block;
+    }
+    #aboutus .imgdescp{
+       margin: 0;
+       padding: 0.5rem;
+    }
+    
+    #footer {
+        width: 100%;
+    }
+    #footer .footerup{
+        display: block;
+    }
+    .mainbtn{
+        left: 43px;
+    }
+    .sponserscards{
+        padding:1.4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Socialicons .socialicon a{
+        margin: 1rem;
+        border: 1px solid rgb(102, 102, 102);
+        padding: 0.5rem;
+        
+    }
+
+    
+ .bgvideodiv video{
+    width: 100%;
+    transform: scale(5.0);
+}
+
+
 
  }
